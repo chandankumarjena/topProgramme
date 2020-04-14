@@ -1,5 +1,7 @@
 package topProgram;
 
+import java.io.BufferedReader;
+
 public class StairProblem {
 	//using recursion
 	public static int totalCases(int n) {
@@ -65,6 +67,7 @@ public class StairProblem {
 		System.out.println(bottomDownApproach(4));
 		System.out.println(improvedBottomDownApproach(4));
 		System.out.println(topDown(new int[4+1], 4));
+		BufferedReader brBufferedReader;
 		
 	}
 
